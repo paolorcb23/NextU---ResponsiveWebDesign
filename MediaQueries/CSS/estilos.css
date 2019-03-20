@@ -1,0 +1,40 @@
+@media print
+{
+  img
+    {
+      width: 100%;
+      /*este especifica que la imagen ocupara el ancho 100% de la pagina
+      al momento de visualizar la impresion*/
+    }
+    h1
+     {
+       text-align: center;
+       /*aqui se especifica que el titulo, en la impresion ira en el centro*/
+     }
+}
+
+@media screen
+{
+  h1
+  {
+    text-align: right;
+    /*el titulo va alineado a la derecha, pero en el preliminar de impresion
+    se mantendra al centro*/
+  }
+}
+
+@media (max-width:420px)
+{
+  p
+   {
+     color:red;
+   }
+}
+
+@media (min-width:421px) and (max-width:720px)
+{
+  p
+  {
+    color: blue;
+  }
+}

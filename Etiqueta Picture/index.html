@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width:device-width, user-scalable=no">
+       <title>Etiqueta PICTURE</title>
+  </head>
+
+  <body>
+       <picture>
+               <source media="(min-width: 768px)" srcset="imagen/banner.png">
+               <source media="(min-width: 480px)" srcset="imagen/perro.jpg">
+              <img src="imagen/pajaro.png"/>
+              <!--el 1er source se refiere a la imagen que va ser mas grande a la vista del navegador
+                  la 2da imagen es el minimo tamaño de la imagen, conforme sea el dispositivo
+                  la 3ra es ya lo que sale cuando se reduce. A todo esto se usa la MISMA imagen
+                  para que se muestre adaptada al dispositivo-->
+       </picture>
+  </body>
+</html>

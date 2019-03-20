@@ -1,0 +1,8 @@
+video
+{
+  width: 50%;
+  /*ocupara solo el 50% de la pantalla en el browser*/
+
+  max-width: 100%;
+  /*con esto, el espacio no podra ser superado cuando se maximize el video*/
+}
